@@ -1,127 +1,213 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="h-full">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="We provide Sign Language Interpreting services, VRS/VRI, Deaf Awareness training and support with PCO licenses for deaf drivers.">
-  <meta name="keywords" content="deaf, british sign language, bsl, sign language, london, vrs, video relay service, career, career advocacy, deaf awareness, training, Deaf Awareness Workshops, deaf education">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InSignLanguage Ltd</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-<link rel="manifest" href="assets/site.webmanifest">
-<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="assets/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="assets/browserconfig.xml">
-<meta name="theme-color" content="#ffffff"></head>
-<body class="min-h-full flex flex-col flex-none font-sans antialiased text-gray-darkest">
-<header class="section-body w-full justify-start py-5.5">
-    <a href="index.html" class="max-w-[10rem] 2xs:max-w-54 lg:flex-shrink-0">
-      <img src="assets/logo_default.svg" alt="InSignLanguage Logo">
-    </a>
-</header>
-<main>
-  <section class="max-w-screen-2xl mx-auto pb-20">
-    <div class="flex flex-col mx-[5%] bg-gray-dark rounded-call p-4 space-y-9 text-[#a1a0a0] md:space-x-9 md:space-y-0 md:flex-row md:p-9">
-      <section class="flex flex-col md:flex-grow-[2.8677] md:w-0 md:flex-col-reverse">
-        <div class="flex space-x-4 justify-center mb-5 md:mb-9 md:mb-0 md:space-x-7">
-          <button class="btn-call btn-call-mic-off"></button>
-          <button class="btn-call btn-call-camera-on"></button>
-          <button class="btn-call btn-call-pick-up"></button>
-        </div>
-        <div class="flex flex-col mb-5 space-y-5 md:space-y-9 md:mb-9">
-
-          <video
-            poster="assets/video_call_poster.jpg"
-            class="max-w-full rounded-call"
-          ></video>
-          <video
-            poster="assets/video_call_self_poster.jpg"
-            class="max-w-48 rounded-[0.875rem] mx-auto"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="We provide Sign Language Interpreting services, VRS/VRI, Deaf Awareness training and support with PCO licenses for deaf drivers." />
+    <meta name="keywords" content="deaf, british sign language, bsl, sign language, london, vrs, video relay service, career, career advocacy, deaf awareness, training, Deaf Awareness Workshops, deaf education" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InSignLanguage Ltd</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="assets/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body
+    class="
+      flex flex-none flex-col
+      min-h-full
+      text-gray-darkest
+      font-sans
+      antialiased
+    "
+  >
+    <div class="flex-grow w-full">
+      
+      <header class="section-body flex justify-start py-5.5">
+        <a href="index.html" class="max-w-[10rem] 2xs:max-w-54 lg:flex-shrink-0">
+          <img src="assets/logo_default.svg" alt="InSignLanguage Logo" />
+        </a>
+      </header>
+      <main>
+        <section class="mx-auto pb-20 max-w-screen-2xl">
+          <div
+            class="
+              mx-[5%]
+              text-[#a1a0a0]
+              flex flex-col
+              p-4
+              bg-gray-dark
+              rounded-call
+              space-y-9
+              md:flex-row md:p-9 md:space-x-9 md:space-y-0
+            "
           >
-          </video>
-        </div>
-      </section>
-      <section role="region" aria-labelledby="chat__title" class="flex flex-col rounded-call bg-gray-light p-4 md:p-6 md:w-0 md:flex-grow-[1]">
-        <div class="mb-4 md:mb-11">
-          <h2 class="story-2xl font-bold text-center mb-4" id="chat__title">Chat</h2>
-          <h3 class="story-md text-bold text-left tracking-tight">Type in any information you want to send to the interpreter</h3>
-        </div>
-        <div class="flex-grow overflow-auto">
-          <div class="call-message call-message-user">
-            <p>My audio will be off for the call.</p>
+            <section
+              class="md:flex-grow-[2.8677] flex flex-col md:flex-col-reverse md:w-0"
+            >
+              <div
+                class="
+                  flex
+                  justify-center
+                  mb-5
+                  space-x-4
+                  md:mb-0 md:mb-9 md:space-x-7
+                "
+              >
+                <button class="btn-call btn-call-mic-off" aria-label="Microphone on/off"></button>
+                <button class="btn-call btn-call-camera-on" aria-label="Camera on/off"></button>
+                <button class="btn-call btn-call-pick-up" aria-label="Call start/end"></button>
+              </div>
+              <div class="flex flex-col mb-5 space-y-5 md:mb-9 md:space-y-9">
+                <video
+                  poster="assets/video_call_poster.jpg"
+                  class="max-w-full rounded-call"
+                ></video>
+                <video
+                  poster="assets/video_call_self_poster.jpg"
+                  class="rounded-[0.875rem] mx-auto max-w-48"
+                ></video>
+              </div>
+            </section>
+            <section
+              role="region"
+              aria-labelledby="chat__title"
+              class="
+                md:flex-grow-[1]
+                flex flex-col
+                p-4
+                bg-[#E9E9E9]
+                rounded-call
+                md:p-6 md:w-0
+              "
+            >
+              <div class="mb-4 md:mb-6">
+                <h2 class="story-2xl mb-4 text-center font-bold" id="chat__title">
+                  Chat
+                </h2>
+                <h3 class="story-md text-bold text-left tracking-tight">
+                  Type in any information you want to send to the interpreter before the call starts.
+                </h3>
+              </div>
+              <div class="flex-grow overflow-auto">
+                <div class="call-message call-message-user">
+                  <p>My audio will be off for the call.</p>
+                </div>
+                <div class="call-message call-message-contact">
+                  <p>No problem, speak shortly</p>
+                </div>
+              </div>
+              <div class="relative">
+                <input
+                  type="text"
+                  class="text-sm text-input pr-10 rounded-[1.125rem] md:text-base md:py-7"
+                  placeholder="Type a message here."
+                />
+                <button class="btn-chat-send absolute bottom-0 right-0 top-0 p-2 pr-4">
+                  <img src=assets/i_send_message.svg class="max-w-full" alt="Send message">
+                </button>
+              </div>
+            </section>
           </div>
-          <div class="call-message call-message-contact">
-            <p>No problem, speak shortly</p>
+        </section>
+      </main>
+      
+    </div>
+    <footer class="bg-black/[0.01] pb-14 pt-12" role="contentinfo">
+      <div class="mx-auto max-w-screen-2xl">
+        <div class="flex flex-col pl-007 pr-007 space-y-6 md:space-y-12">
+          <div
+            class="
+              flex flex-wrap
+              items-end
+              justify-center justify-items-center
+              space-y-3
+              sm:justify-start sm:space-y-0
+            "
+          >
+            <h3 class="story-lg text-center uppercase">Follow us on our socials</h3>
+            <div class="flex pb-1.5 px-7 space-x-7">
+              <a href="https://www.facebook.com/insignlanguage" target="_blank" rel="noopener noreferrer">
+                <img src="assets/i_facebook.svg" class="max-w-full" alt="Facebook icon" />
+              </a>
+              <a href="https://twitter.com/insignlanguage" target="_blank" rel="noopener noreferrer">
+      <img src="assets/i_twitter.svg" class="max-w-full" alt="Twitter icon" />
+    </a>
+     <a href="https://www.instagram.com/insignlanguage/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/i_instagram.svg" class="max-w-full" alt="Instagram
+              icon" />
+    </a>
+     <a href="https://www.linkedin.com/company/insignlanguage" target="_blank" rel="noopener noreferrer">
+      <img src="assets/i_linkedin.svg" class="max-w-full" alt="Linkedin
+              icon" />
+    </a>
+    
+            </div>
+          </div>
+          <ul
+            class="
+              flex
+              items-stretch
+              justify-center
+              text-center
+              font-condensed
+              text-xs
+              font-bold
+              divide-gray-darkest divide-x
+              sm:justify-start sm:text-left
+            "
+          >
+            <li class="flex items-center w-0 justify-center flex-grow first:pl-0 pl-2 last:pr-0 pr-2 md:w-auto md:flex-grow-0">
+      <a href="terms.html">Terms and conditions</a>
+    </li>
+     <li class="flex items-center w-0 justify-center flex-grow first:pl-0 pl-2 last:pr-0 pr-2 md:w-auto md:flex-grow-0">
+      <a href="privacy.html">Privacy</a>
+    </li>
+     <li class="flex items-center w-0 justify-center flex-grow first:pl-0 pl-2 last:pr-0 pr-2 md:w-auto md:flex-grow-0">
+      <a href="contact.html">Contact us</a>
+    </li>
+     <li class="flex items-center w-0 justify-center flex-grow first:pl-0 pl-2 last:pr-0 pr-2 md:w-auto md:flex-grow-0">
+      <a href="resources.html">Resources</a>
+    </li>
+    
+          </ul>
+          <div
+            class="
+              flex flex-wrap
+              justify-center justify-items-center
+              space-y-3
+              sm:items-center sm:justify-between sm:space-y-0
+            "
+          >
+            <span class="story-md mr-4 text-center">
+              <span>InSignLanguage is a Limited Company</span>
+              <span class="whitespace-nowrap">(No. 10943637)</span>
+            </span>
+            <span class="story-lg text-center">© InSignLanguage 2021</span>
           </div>
         </div>
-        <div class="relative">
-          <input type="text" class="text-input text-base pr-10" placeholder="Type a message here." >
-          <button class="btn-chat-send absolute right-0 top-0 bottom-0 p-2">
-            <img src=assets/i_send_message.svg class="max-w-full">
-          </button>
-        </div>
       </div>
-    </div>
-  </section>
-</main>
-<footer class="bg-black/[0.01] pt-12 pb-12" role="contentinfo">
-  <div class="max-w-screen-2xl mx-auto">
-    <div class="flex flex-col space-y-10 pl-007 pr-007 ">
-      <div class="flex flex-wrap justify-items-center items-end space-y-3 justify-center sm:justify-start sm:space-y-0">
-        <h3 class="story-lg uppercase text-center">Follow us on our socials</h3>
-        <div class="flex space-x-7 pb-1.5 px-7">
-          <a href="https://www.facebook.com/insignlanguage" target="_blank" rel="noopener noreferrer">
-            <img
-              src="assets/i_facebook.svg"
-              class="max-w-full"
-              alt="Facebook icon"
-            >
-          </a>          <a href="https://twitter.com/insignlanguage" target="_blank" rel="noopener noreferrer">
-            <img
-              src="assets/i_twitter.svg"
-              class="max-w-full"
-              alt="Twitter icon"
-            >
-          </a>          <a href="https://www.instagram.com/insignlanguage/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="assets/i_instagram.svg"
-              class="max-w-full"
-              alt="Instagram icon"
-            >
-          </a>          <a href="https://www.linkedin.com/company/insignlanguage" target="_blank" rel="noopener noreferrer">
-            <img
-              src="assets/i_linkedin.svg"
-              class="max-w-full"
-              alt="Linkedin icon"
-            >
-          </a>        </div>
-      </div>
-      <ul class="flex divide-x justify-center divide-gray-darkest items-stretch text-xs font-condensed font-bold text-center sm:justify-start sm:text-left">
-        <li class="flex items-center pl-2 pr-2 first:pl-0 last:pr-0">
-          <a href="terms.html">Terms and conditions</a>
-        </li>        <li class="flex items-center pl-2 pr-2 first:pl-0 last:pr-0">
-          <a href="privacy.html">Privacy</a>
-        </li>        <li class="flex items-center pl-2 pr-2 first:pl-0 last:pr-0">
-          <a href="contact.html">Contact us</a>
-        </li>        <li class="flex items-center pl-2 pr-2 first:pl-0 last:pr-0">
-          <a href="resources.html">Resources</a>
-        </li>      </ul>
-      <div class="flex flex-wrap justify-items-center justify-center space-y-3 sm:justify-between sm:space-y-0 sm:items-center">
-        <span class="story-md text-center mr-4">
-          <span>InSignLanguage is a Limited Company</span>
-          <span class="whitespace-nowrap">(No. 10943637)</span>
-        </span>
-        <span class="story-lg text-center">© InSignLanguage 2021</span>
-      </div>
-    </div>
-  </div>
-</footer><script src="js/app.min.js"></script>
-</body>
+    </footer>
+    <script src="js/app.min.js"></script>
+  </body>
 </html>
